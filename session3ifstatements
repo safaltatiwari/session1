@@ -24,3 +24,21 @@ if weather == "sunny" :
     print ("Go outside and enjoy the sunshine!")
 else:
     print ("Bring an umbrella, it might rain")
+
+
+
+# Topic: Nested Decision Structures (if-elif-else)
+s = int (input("Enter your exam score: ")) # Asking user to enter their score
+if s <= 49: # If stataments
+    print ("Sorry, You have Failed")
+elif s <= 64: # Elif statements for pass
+    print ("Congratulations, You have Passed")
+elif s <= 74: # Elif statements for credit
+    print ("Congratulations, You have received Credit")
+elif s <= 84: # Elif statement for distinction
+    print (" Congratulations, You have received Distinction")
+else: # Else statement for high distinction
+    print("Congratulations, You have received High Distinction")
+
+
+
