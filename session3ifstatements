@@ -43,8 +43,22 @@ else: # Else statement for high distinction
 # topic: The while loop (condition-controlled)
 count = 1
 while count <= 5:
-print(f"Counting... {count}")
+print(f"Counting... {count}") 
 count += 1 #Increcrement count
+
+
+#Topic: The for loop (Count-Controlled) 
+Continents = [ "Asia", "Africa", "North America, "South America", "Antartica", "Australia", "Europe"]
+for continent in continents:
+print (f"I like {continents}!")
+
+#Topic: The for loop (Count-Controlled)
+continents = ["Asia", "Africa", "North America", "South America", "Antartica", "Australia", "Europe"]
+imfromconts = ["Asia"]
+
+for continent in continents :
+print(f"I'm from {imfromconts}!")
+
 
 
 
