@@ -60,5 +60,12 @@ for continent in continents :
 print(f"I'm from {imfromconts}!")
 
 
+#Topic: Calculating  a running total
+total = 0
+for num in range(1,6): #Loop through numbers 1 to 5
+    total += num
+    print (f"Current total: {total}"
+
+
 
 
