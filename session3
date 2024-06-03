@@ -1,0 +1,7 @@
+# Topic: The if-else Statement
+weather = input("What's the weather like today (sunny, rainy)?: ")
+
+if weather == "sunny" :
+    print ("Go outside and enjoy the sunshine!")
+else:
+    print ("Bring an umbrella, it might rain")
