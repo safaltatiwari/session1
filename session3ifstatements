@@ -27,6 +27,7 @@ else:
 
 
 
+
 # Topic: Nested Decision Structures (if-elif-else)
 s = int (input("Enter your exam score: ")) # Asking user to enter their score
 if s <= 49: # If stataments
@@ -65,6 +66,15 @@ total = 0
 for num in range(1,6): #Loop through numbers 1 to 5
     total += num
     print (f"Current total: {total}")
+
+
+# Topic: Sentiels (Loop Termination with a specific value)
+number = 0 #assigning the value as starting 0
+while number != -1: #Loop until user entries -1
+    number = int(input("Enter a number (or -1 to quit):")) #input statement that leads to value for varibale number
+    if number != -1: #if statement with condition if the number is -1
+        print (f"You entered: {number}") #print statement for printing the number value
+
 
 
 
