@@ -6,3 +6,11 @@ if age < 18:
     print("Your are minor", name)
 else:
     print ("Your are an adult", name)
+
+# Topic: The if-else Statement
+name = input("Please enter your name (admin, general user): ")
+
+if name == "admin" or "Admin" :
+    print ("Welcome,admi Admin!")
+else:
+    print ("Access Denied")
