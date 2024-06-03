@@ -40,5 +40,11 @@ elif s <= 84: # Elif statement for distinction
 else: # Else statement for high distinction
     print("Congratulations, You have received High Distinction")
 
+# topic: The while loop (condition-controlled)
+count = 1
+while count <= 5:
+print(f"Counting... {count}")
+count += 1 #Increcrement count
+
 
 
