@@ -1,1 +1,9 @@
+def check_age(age):
+    if age< 18:
+        print ("You are a minor.")
+    else:
+        print ("You are an adult.")
 
+        #get age inout from user
+        user_age= int(input("Enter your age: "))
+        check_age (user_age)
